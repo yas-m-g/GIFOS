@@ -834,7 +834,8 @@ input {
   width: 27px;
   margin: 15px;
 }
-*/ .upload__gifo {
+
+.upload__gifo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1454,10 +1455,10 @@ display: none;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 65%;
+  width: 15rem;
   height: 25vh;
   border: 1px solid #572ee5;
-  padding: 100px;
+  padding: 50px;
   position: relative;
   margin-bottom: 25px;
 }
@@ -1479,4 +1480,48 @@ display: none;
   color: #ffffff; 
 }
 
+.camera {
+ /* display: -webkit-box;
+  display: -ms-flexbox;*/
+  display: flex;
+  /*-webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;*/
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 15%;
+}
+
+.camera img {
+  width: 4rem;
+}
+
+.upload__gifo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 30rem;
+  margin: 0 auto;
+  height: 15rem;
+  position: relative;
+}
+
+/*#recorded_gifo {
+  background-color: #50e3c2;
+}*/
 }
