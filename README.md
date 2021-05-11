@@ -5,4 +5,4 @@ El desafío consistió en la creación de una aplicación web interactiva para c
 
 https://yas-m-g.github.io/GIFOS/
 
-ssad
+
